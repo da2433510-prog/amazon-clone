@@ -1,0 +1,217 @@
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    width:100%;
+
+    height:70px;
+
+    background:#131921;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 30px;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+}
+
+.nav-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.logo img{
+
+    width:120px;
+
+}
+
+.location{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    cursor:pointer;
+
+    padding:8px;
+
+    border:1px solid transparent;
+
+}
+
+.location:hover{
+
+    border:1px solid white;
+
+}
+
+.location span{
+
+    font-size:12px;
+
+    color:#ccc;
+
+}
+
+.location h4{
+
+    font-size:14px;
+
+}
+
+.nav-search{
+
+    width:55%;
+
+    display:flex;
+
+    height:42px;
+
+}
+
+.nav-search select{
+
+    width:70px;
+
+    border:none;
+
+    outline:none;
+
+    background:#f3f3f3;
+
+    border-radius:6px 0 0 6px;
+
+    text-align:center;
+
+}
+
+.nav-search input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    padding:0 15px;
+
+    font-size:16px;
+
+}
+
+.nav-search button{
+
+    width:55px;
+
+    border:none;
+
+    background:#febd69;
+
+    font-size:18px;
+
+    border-radius:0 6px 6px 0;
+
+}
+
+.nav-search button:hover{
+
+    background:#f3a847;
+
+}
+
+.nav-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+.nav-item{
+
+    cursor:pointer;
+
+    border:1px solid transparent;
+
+    padding:8px;
+
+}
+
+.nav-item:hover{
+
+    border:1px solid white;
+
+}
+
+.nav-item small{
+
+    display:block;
+
+    font-size:12px;
+
+}
+
+.nav-item strong{
+
+    font-size:14px;
+
+}
+
+.cart{
+
+    position:relative;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
+.cart span{
+
+    position:absolute;
+
+    top:-8px;
+
+    right:-12px;
+
+    background:red;
+
+    width:22px;
+
+    height:22px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:12px;
+
+    color:white;
+
+}

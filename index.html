@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Amazon Clone</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-left">
+
+        <a href="index.html" class="logo">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg">
+
+        </a>
+
+        <div class="location">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+
+                <span>Deliver to</span>
+
+                <h4>India</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="nav-search">
+
+        <select id="category">
+
+            <option>All</option>
+            <option>Electronics</option>
+            <option>Fashion</option>
+            <option>Home</option>
+            <option>Books</option>
+
+        </select>
+
+        <input
+            type="text"
+            placeholder="Search Amazon Clone..."
+            id="searchBox"
+        >
+
+        <button id="searchBtn">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </button>
+
+    </div>
+
+    <div class="nav-right">
+
+        <div class="nav-item">
+
+            <small>Hello, Sign In</small>
+
+            <strong>Account & Lists</strong>
+
+        </div>
+
+        <div class="nav-item">
+
+            <small>Returns</small>
+
+            <strong>& Orders</strong>
+
+        </div>
+
+        <div class="cart">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <span id="cartCount">0</span>
+
+        </div>
+
+    </div>
+
+</header>
+
+    <!-- Hero -->
+     <section class="hero">
+
+    <div class="slides fade">
+
+        <img src="images/hero1.jpg">
+
+        <div class="hero-content">
+
+            <h1>Summer Sale 2026</h1>
+
+            <p>Up to 70% OFF on Electronics</p>
+
+            <button>Shop Now</button>
+
+        </div>
+
+    </div>
+
+    <div class="slides fade">
+
+        <img src="images/hero2.jpg">
+
+        <div class="hero-content">
+
+            <h1>Latest Fashion</h1>
+
+            <p>Trending Styles Starting at $19</p>
+
+            <button>Explore</button>
+
+        </div>
+
+    </div>
+
+    <div class="slides fade">
+
+        <img src="images/hero3.jpg">
+
+        <div class="hero-content">
+
+            <h1>Smart Home</h1>
+
+            <p>Make your home smarter today.</p>
+
+            <button>Buy Now</button>
+
+        </div>
+
+    </div>
+
+    <a class="prev">&#10094;</a>
+
+    <a class="next">&#10095;</a>
+
+</section>
+   
+
+    <!-- Categories -->
+     <!-- ================= CATEGORY SECTION ================= -->
+
+<section class="categories">
+
+    <h2>Shop by Category</h2>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=11" alt="Electronics">
+            <h3>Electronics</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=12" alt="Fashion">
+            <h3>Fashion</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=13" alt="Home">
+            <h3>Home & Kitchen</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=14" alt="Beauty">
+            <h3>Beauty</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=15" alt="Books">
+            <h3>Books</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=16" alt="Gaming">
+            <h3>Gaming</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=17" alt="Sports">
+            <h3>Sports</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="https://picsum.photos/200?random=18" alt="Computers">
+            <h3>Computers</h3>
+        </div>
+
+    </div>
+
+</section>
+    
+
+    <!-- Products -->
+     <section class="products">
+
+    <h2>Featured Products</h2>
+
+    <div class="product-grid" id="productGrid">
+
+    </div>
+
+</section>
+   
+
+    <!-- Footer -->
+    <footer class="footer">
+
+<p>
+
+© 2026 Amazon Clone | Built with HTML CSS JavaScript
+
+</p>
+
+</footer>
+
+    <script src="js/storage.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+</html>
